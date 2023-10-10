@@ -32,8 +32,34 @@
                     <!-- Right column container -->
                     <div class="mb-12 md:mb-0 md:w-8/12 lg:w-5/12 xl:w-5/12">
                         <form>
-                            <h1 class="text-3xl font-bold mb-20">Log In</h1>
+                            <h1 class="text-3xl font-bold mb-20">Register</h1>
+                            <div class="relative"
+                                data-te-input-wrapper-init>
+                                <div
+                                    class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                    <div>
+                                        <div class="mb-6">
+                                            <label for="base-input"
+                                                class="block mb-2 text-sm font-medium text-gray-900">First
+                                                Name</label>
+                                            <input type="text" id="base-input"
+                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="mb-6">
+                                            <label for="base-input"
+                                                class="block mb-2 text-sm font-medium text-gray-900">Last
+                                                Name</label>
+                                            <input type="text" id="base-input"
+                                                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5">
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+
+                            <!-- Email input -->
                             <div class="relative mb-6"
                                 data-te-input-wrapper-init>
                                 <label for="email"
@@ -70,10 +96,6 @@
                                         Remember me
                                     </label>
                                 </div>
-
-                                <!--Forgot password link-->
-                                <a href="#!" class="text-blue-700">Forgot
-                                    password?</a>
                             </div>
 
                             <!-- Login button -->
@@ -83,15 +105,15 @@
                                     class="inline-block rounded bg-primary px-7 pb-2.5 pt-3 text-sm font-medium uppercase leading-normal text-white bg-blue-700 hover:bg-blue-900 w-full"
                                     data-te-ripple-init
                                     data-te-ripple-color="light">
-                                    Login
+                                    Register
                                 </button>
 
                                 <!-- Register link -->
                                 <p class="mb-0 mt-2 pt-1 text-sm font-semibold">
-                                    Don't have an account?
+                                    Already have an account?
                                     <a
                                         href="#!"
-                                        class="text-danger transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700">Register</a>
+                                        class="text-danger transition duration-150 ease-in-out hover:text-danger-600 focus:text-danger-600 active:text-danger-700">Login</a>
                                 </p>
                             </div>
                         </form>
