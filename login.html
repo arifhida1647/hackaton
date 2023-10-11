@@ -16,15 +16,15 @@
         <title>Login</title>
     </head>
     <body>
-        <section class="max-w-screen-xl h-screen mx-auto">
-            <div class="h-full">
+        <section class="max-w-screen-lg h-screen mx-auto">
+            <div class="h-60">
                 <!-- Left column container with background-->
                 <div
                     class="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
                     <div
                         class="shrink-1 mb-12 grow-0 basis-auto md:mb-0 md:w-9/12 md:shrink-0 lg:w-6/12 xl:w-6/12">
                         <img
-                            src="https://tecdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                            src="asset/login.svg"
                             class="w-full"
                             alt="Sample image" />
                     </div>
@@ -42,6 +42,7 @@
                                 <input type="email" id="email"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                     placeholder="name@example.com" required>
+                                    <p class="text-sm text-red-600 mt-2">*Email tidak terdaftar</p>
                             </div>
 
                             <!-- Password input -->
@@ -53,6 +54,7 @@
                                 <input type="password" id="password"
                                     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                                     required>
+                                    <p class="text-sm text-red-600 mt-2">*Password Salah</p>
                             </div>
 
                             <div class="mb-6 flex items-center justify-between">
